@@ -123,7 +123,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-echo 'alias explorer="explorer.exe ."' >> ~/.zshrc
+alias explorer="explorer.exe ."
 
 wur="/mnt/c/Users/TFX255GS"
 # Dropbox
@@ -134,4 +134,3 @@ rw="$wur/rust"
 nrw_name="study-rust-SimpleWebServer"
 # now rust workspace
 nrw="$rw/$nrw_name"
-alias explorer="explorer.exe ."
