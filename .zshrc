@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -125,12 +125,22 @@ export NVM_DIR="$HOME/.nvm"
 
 alias explorer="explorer.exe ."
 
-wur="/mnt/c/Users/TFX255GS"
+gtkn="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"
+
+wur="/mnt/c/Users/takgyun"
 # Dropbox
 dropbox="$wur/Dropbox"
 # rust workspace
-rw="$wur/rust"
+rw="$wur/source/rust"
 # now project name
 nrw_name="study-rust-SimpleWebServer"
 # now rust workspace
 nrw="$rw/$nrw_name"
+
+# csharp workspace
+csw="$wur/source/repos"
+# now project name
+ncsw_name="ERP.Lib"
+ncsw="$csw/$ncsw_name"
+
+all="gtkn, wur, dropbox, rw, nrw_name, nrw, csw, ncsw_name, ncsw"
